@@ -1,0 +1,287 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ... -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {background-color:#eee;}
+
+checkboxes.padding {
+  padding-bottom:1500px;
+ }
+
+
+
+
+ </style>
+
+
+  <head>    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+
+    <title>Bootstrap 101 Template</title>
+
+
+
+
+ 
+  </head>
+
+
+
+<body>
+
+
+  <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Gexpro</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Enter RFQ</a></li>
+      <li><a href="#">Table View</a></li>
+      <li><a href="#">View Calendar</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+<div class="container">
+  <div class="form-group">
+    <form>
+          <label for="pwd">Project Name:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Enter Name">
+        </form>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="container">
+  <div class="form-group">
+              <label for="datetimepicker">Bid Date & Time:</label>
+    <div class="row">
+        <div class='col-sm-6'>
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+              <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+              </span>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="container">
+<p class="checkboxes">
+  <form method="post">
+  <div class="form-group">
+  <div class="row">
+    <div class="col-sm-3">
+    <label>Contractor</label>
+</div>
+</div>
+
+
+<div class="form-group">
+<div class='col-sm-3'>
+      
+      <fieldset>
+
+          <input name="contractorsRfq" value="ams" type="checkbox">AMS Electric <br>
+          <input name="contractorsRfq" value="bass" type="checkbox">Bass Electric<br>
+          <input name="contractorsRfq" value="best" type="checkbox">Best Electric<br>
+          <input name="contractorsRfq" value="blocka" type="checkbox">Blocka Construction<br>
+          <input name="contractorsRfq" value="brayer" type="checkbox">Brayer Electric <br>
+          <input name="contractorsRfq" value="contracosta" type="checkbox">Contra Costa Electric <br>
+          <input name="contractorsRfq" value="collins" type="checkbox">Collins Electric<br>
+          <input name="contractorsRfq" value="cupertino" type="checkbox">Cupertino Electric <br>
+          <input name="contractorsRfq" value="fisk" type="checkbox">Fisk Electric<br>   
+         <input name="contractorsRfq" value="collins" type="checkbox">Collins Electric<br>
+      </fieldset>
+</div>
+<div class='col-sm-3'>
+      <fieldset>
+ 
+          <input name="contractorsRfq" value="cupertino" type="checkbox">Cupertino Electric <br>
+          <input name="contractorsRfq" value="fisk" type="checkbox">Fisk Electric<br>
+          <input name="contractorsRfq" value="mcmillan" type="checkbox">McMillan Electric <br>
+          <input name="contractorsRfq" value="habowen" type="checkbox">H A Bowen Electric<br>
+          <input name="contractorsRfq" value="markIII" type="checkbox">Mark III Construction<br>
+          <input name="contractorsRfq" value="morrow" type="checkbox">Morrow Meadows<br>
+          <input name="contractorsRfq" value="redwood" type="checkbox">Redwood Electric <br>  
+          <input name="contractorsRfq" value="rosendin" type="checkbox">Rosendin Electric <br>
+          <input name="contractorsRfq" value="sasco" type="checkbox">SASCO <br>
+          <input name="contractorsRfq" value="scott" type="checkbox">Scott Electric<br>
+        
+      </fieldset>
+</div>
+<div class='col-sm-3'>
+    <fieldset>
+          <input name="contractorsRfq" value="shell" type="checkbox">Shell<br>
+          <input name="contractorsRfq" value="shimmick" type="checkbox">Shimmick Construction<br>
+          <input name="contractorsRfq" value="sprig" type="checkbox">Sprig Electric<br>
+          <input name="contractorsRfq" value="stfrancis" type="checkbox">St. Francis Electric <br>
+          <input name="contractorsRfq" value="twinkle" type="checkbox">Twinkle Corp<br>
+          <input name="contractorsRfq" value="wbradley" type="checkbox">W Bradley Electric<br>
+          <input name="contractorsRfq" value="watts" type="checkbox">Watts Construction<br>
+          <input name="contractorsRfq" value="young" type="checkbox">Young Electric<br>
+          <input name="contractorsRfq" value="other" type="checkbox">Other<br>
+          <input id="projectName" type="text">
+      </fieldset>
+    </div>
+    </form>
+  </div>
+</div>
+</div>
+
+</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+<div class="form-group">
+  <form>
+<label>Cross-sell opportunity</label>
+<label class="checkbox-inline"><input type="checkbox" value="">Lighting</label>
+<label class="checkbox-inline"><input type="checkbox" value="">Commodities</label>
+<label class="checkbox-inline"><input type="checkbox" value="">Automation</label>
+<label class="checkbox-inline"><input type="checkbox" value="">Solar</label>
+<label class="checkbox-inline"><input type="checkbox" value="">PowerIQ</label>
+</form>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="container">
+<div class="form-group">
+  <form>
+
+  <label for="sel1">Estimated Value of Opportunity:</label>
+  <select class="form-control" id="sel1">
+
+                <option value="small">$0 - $50,000
+                </option><option selected="selected" value="medium">$50,000-$150,000
+                </option><option value="mediumLarge">$150,000-$250,000
+                </option><option value="large">$250,000-$1MM
+                </option><option value="veryLarge">$1MM and over
+              </option></select>
+            </form>
+</div>
+</div>
+</form>
+
+
+<div class="container">
+<div class="form-group">
+  <form>
+
+<label class="checkbox-inline"><input type="checkbox" value="">Special/Complex Project</label>
+</form>
+</div>
+</div>    
+
+
+
+
+
+
+<div class="container">
+  <div class="form-group">
+    <form>
+ <div class="form-group">
+  <label for="comment">Comments:</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+</div>
+
+    </form>
+    </div>
+  </div>
+<div class="container">
+  <div class="form-group">
+    <form>
+       <button type="button" class="btn btn-primary btn-block">Submit RFQ</button>
+</form>
+    </div>
+  </div>
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+
+  </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
